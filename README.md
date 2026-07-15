@@ -29,17 +29,36 @@ The project includes:
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
+```text
 AB_Testing_Analysis/
 │
 ├── data/
+│   ├── conversion_data.csv
+│   └── generate_data.py
+│
 ├── notebooks/
+│   └── ab_testing.ipynb
+│
 ├── dashboard/
+│   └── dashboard.pbix
+│
 ├── sql/
+│   └── queries.sql
+│
 ├── reports/
+│   └── AB_Test_Report.docx
+│
 ├── images/
+│   ├── conversion_rate.png
+│   ├── conversion_results.png
+│   ├── group_distribution.png
+│   └── dashboard.png
+│
 ├── README.md
+├── requirements.txt
+└── .gitignore
 
 ---
 
