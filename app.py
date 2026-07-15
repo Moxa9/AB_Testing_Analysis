@@ -3,10 +3,14 @@ import pandas as pd
 import plotly.express as px
 from statsmodels.stats.proportion import proportions_ztest
 
-st.set_page_config(page_title="A/B Testing Dashboard", layout="wide")
+st.set_page_config(
+    page_title="A/B Testing Dashboard",
+    page_icon="📊",
+    layout="wide"
+)
 
 st.title("📊 A/B Testing Analysis Dashboard")
-
+st.write("Comparison of Website Version A and Version B")
 # Load data
 df = pd.read_csv("data/conversion_data.csv")
 
